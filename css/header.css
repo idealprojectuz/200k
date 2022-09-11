@@ -1,0 +1,60 @@
+.w-5 {
+    width: 1.25rem;
+}
+.h-5 {
+    height: 1.25rem;
+}
+@media only screen and (max-width: 524px)
+{
+    .top-bar {
+        background-color: red;
+        padding: 8px;
+    }
+    .container{
+        width: 95%;
+    }
+    .apps span{
+        display: none;
+    }
+}
+
+.top-bar{
+    background-color: red;
+    padding: 15px;
+
+}
+svg path{
+    fill:white;
+}
+.top-bar ul{
+    list-style: none;
+}
+.top-bar span{
+    font-size: 16px;
+    font-weight: bold;
+}
+.top-bar ul li{
+    color: white;
+    font-size:15px;
+}
+.apps{
+    display: flex;
+}
+.apps li{
+    margin-left: 5px;
+}
+.top-right{
+    
+    display: flex;
+
+}
+.top-bar .container{
+    display: flex;
+    justify-content:space-between;
+}
+header{
+    display: flex;
+}
+.logo img{
+    width: 130px;
+}
