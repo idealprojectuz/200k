@@ -4,6 +4,24 @@
 .h-5 {
     height: 1.25rem;
 }
+@media only screen and (max-width: 955px)
+{
+    .container-fluid{
+        width: 90%;
+    }
+    .my-account{
+        display: none;
+    }
+    .logo {
+        width:10%;
+    }
+    .header-search
+    {
+    width: 70% !important;
+    } 
+ 
+}
+
 @media only screen and (max-width: 524px)
 {
     .top-bar {
@@ -16,7 +34,9 @@
     .apps span{
         display: none;
     }
+   
 }
+
 
 .top-bar{
     background-color: red;
@@ -26,7 +46,10 @@
 svg path{
     fill:white;
 }
-.top-bar ul{
+.top-bar ul  {
+    list-style: none !important;
+}
+ul.header-right{
     list-style: none;
 }
 .top-bar span{
@@ -56,5 +79,56 @@ header{
     display: flex;
 }
 .logo img{
-    width: 130px;
+    width: 100px;
+}
+.logo 
+{
+    width: 10%;
+}
+.header-search
+{
+    width: 33%;
+} 
+.my-account{
+    width: 33%;
+}
+header .container-fluid{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+    height: 50px;
+}
+header{
+    height: 20px;
+}
+#header-search{
+    width: 80%;
+}
+.header-search input[type=text]{
+    border-radius: 20px;
+    border: 1px solid red;
+}
+header{
+    background: white;
+    box-shadow: 0px 2px 10px rgba(92, 92, 90, 0.133);
+    height: 100%
+}
+#header-search
+{
+    outline: none;
+    border-radius: 20px 0px 0px 20px;
+    padding: 5px 10px;
+    border-right: 0px solid !important;
+    border: 1px solid rgb(156, 154, 154)
+}
+#search-submit{
+    background: red;
+    border: none;
+    color: white;
+    padding-top: 7px;
+    border-radius: 0px 16px 16px 0;
+    padding-left: 11px;
+    padding-bottom: 7px;
+    padding-right: 8px;
 }
