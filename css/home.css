@@ -1,0 +1,38 @@
+.flex-column{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-child{
+    width: 16.6%;
+}
+.flex-child img
+{
+    width: 70%;
+    height: auto;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 0 auto 8px;
+    transition: transform 400ms;
+  
+}
+#category{
+    background:#ebebeb;
+    padding-top:3rem;
+    text-align:center;
+}
+.flex-child a{
+    text-decoration:none;
+    font-size: 14px;
+    color:black;
+}
+.flex-child{
+    margin-bottom:30px;
+}
+/* start media */
+@media only screen and (max-width: 766px)
+{
+    .flex-child{
+        width: 33%;
+    }
+  
+}
